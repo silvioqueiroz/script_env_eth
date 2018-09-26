@@ -8,6 +8,8 @@ then
 fi
 echo "Atualização feita com sucesso"
 
+apt-get install -y npm
+
 echo "Atualizando pacotes já instalados"
 if ! apt-get dist-upgrade -y
 then
